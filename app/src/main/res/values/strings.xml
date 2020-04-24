@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SVenArTesis</string>
+    <string name="title_activity_listado_turnos">listadoTurnos</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="listado_turnos_ingrese">*Ingrese al menos 2 letras para buscar el turno por DNI, Nombre o Apellido de la persona o CUIT de la Empresa a la que pertenece:</string>
+
+</resources>

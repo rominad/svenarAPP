@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context="HojaServicio.listadoHojaServicio"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _ _ _ _" />
+
+        <TextView
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dominio:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/dominio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _ _ _ _" />
+
+        <TextView
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marca:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/marca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modelo:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/modelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _ _ _ _" />
+
+        <TextView
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Año:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/anio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chasis:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/chasis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _ _ _ _" />
+
+        <TextView
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motor:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/motor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Responsable/Dueño Vehiculo:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _ _ _ _" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo Doc:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _ _ _ _" />
+
+        <TextView
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nro:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empresa:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/empresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="_ _ _ _ _ _ _" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Articulos presupuestados:"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+
+    ><TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text= "*Seleccione los productos que ha colocado en el vehículo:"
+    android:textStyle="italic"
+    android:textSize="18sp"/>
+
+    <ListView
+        android:id="@+id/checkable_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btshow"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showSelectedItems"
+            android:text="Agregar mas productos"
+            />
+        <Button
+            android:id="@+id/btnEnd"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Finalizar"
+            />
+    </LinearLayout>
+
+</LinearLayout>

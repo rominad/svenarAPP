@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle_mascota"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo3"
+    android:padding="10dp"
+    tools:context="Clientes.detallePersona">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.0"
+            android:onClick="back"
+            android:src="@drawable/home" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="Cliente"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFORMACION DE LA PERSONA:"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellido y nombre:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/ApellidoNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="18dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de Documento:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/tipoDocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número de Documento:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/numeroDocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número de Telefono:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo electrónico:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirección:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CUIL:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/cuil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/idinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFORMACION DE LA EMPRESA"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/nombreEmpresa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/nombreEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/cuitEmpresa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CUIT:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/cuitEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/direccionEmpresa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirección:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/direccionEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/telefonoEmpresa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teléfono:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/telefonoEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

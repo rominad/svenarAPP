@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle_mascota"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo3"
+    android:padding="10dp"
+    tools:context="Turnos.detalleTurno">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.0"
+            android:onClick="back"
+            android:src="@drawable/home" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="Turno"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DETALLE DEL TURNO"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha y hora del turno:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/FechaHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="18dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detalle:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/Detalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFORMACION DE LA PERSONA"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellido y Nombre:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/ApellidoNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teléfono:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de Documento:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/TipoDocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número del documento:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/NumeroDocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/btninfo1"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFORMACION DE LA EMPRESA"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/NombreEmpresa2"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/NombreEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/TelefonoEmpresa2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teléfono:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/TelefonoEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ "
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

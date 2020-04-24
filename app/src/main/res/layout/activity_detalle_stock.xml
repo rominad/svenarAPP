@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle_mascota"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo3"
+    android:padding="10dp"
+    tools:context="Stock.detalleStock">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.0"
+            android:onClick="back"
+            android:src="@drawable/home" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="Producto"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFORMACION DEL PRODUCTO"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/DescripcionProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ _ _"
+                android:layout_marginBottom="18dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de producto:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/TipoProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ _ _"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/Precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ _ _"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/Stock2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stock:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/Stock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ _ _"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/UnidadMedida2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unidad de Medida"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/UnidadMedida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ _ _"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/Marca2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marca:"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/Marca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_ _ _ _ _ _"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <!-- <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/stock_CodigoBarra"
+                 android:textStyle="bold"
+                 android:textSize="18sp"/>
+             <TextView
+                 android:id="@+id/CodigoBarra"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="&#45;&#45;&#45;&#45;"
+                 android:layout_marginBottom="10dp"
+                 android:textSize="18sp"/>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

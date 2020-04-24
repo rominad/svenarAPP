@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rominabazanpc.svenartesis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Turnos.detalleBusquedaTurno"></activity>
+        <activity android:name=".HojaServicio.tablaHojaServicio" />
+        <activity android:name=".HojaServicio.detalleHojaServicio" />
+        <activity android:name=".Turnos.busquedaTurno" />
+        <activity android:name=".Facturas.detalleFactura" />
+        <activity android:name=".Facturas.listadoFacturas" />
+        <activity android:name=".Turnos.detalleTurno" />
+        <activity android:name=".Turnos.listadoTurnos" />
+        <activity android:name=".Stock.detalleStock" />
+        <activity android:name=".Stock.listadoStock" />
+        <activity android:name=".Clientes.detallePersona" />
+        <activity android:name=".Clientes.listadoPersonas" />
+        <activity android:name=".HojaServicio.listadoHojaServicio" />
+        <activity android:name=".HojaServicio.hojaServicio" />
+        <activity android:name=".Diaria.detalleDiaria" />
+        <activity android:name=".Diaria.diaria" />
+        <activity android:name=".Menu.menuMecanico" />
+        <activity android:name=".Menu.menuGeneral" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
